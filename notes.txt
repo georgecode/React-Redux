@@ -1,0 +1,12 @@
+
+//mutable vs immutable
+If the values of the properties attached to a given entity change over time, you say that the state of that entity is mutable. Otherwise, you say that the state is immutable.
+
+a car may be created and destroyed, but it will keep its identity throughout its lifetime. It does not make sense to speak about the identity of something that does not exist yet or any more.
+
+so the state of a car's color is mutable
+
+{"color": "blue"}
+{"color": "red"}
+
+Mutable state is state that can be changed after you make the object (the color). Immutable state is state that cannot be changed(the car).
