@@ -10,3 +10,17 @@ so the state of a car's color is mutable
 {"color": "red"}
 
 Mutable state is state that can be changed after you make the object (the color). Immutable state is state that cannot be changed(the car).
+
+//Reducers
+Reducers produce the state of the application.
+
+Redux says the only way to change the state is by sending a signal to the store.This signal is an action. “Dispatching an action” is the process of sending out a signal.
+
+Now, how do you change an immutable state? You don’t. The resulting state is a copy of the current state plus the new data.
+
+// src/js/constants/action-types.js
+the reason you use a file like this is to avoid errors that will be difficult 
+to debug and could potentialy cause problems if left in the actions file
+
+
+
