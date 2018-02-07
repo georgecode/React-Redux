@@ -24,11 +24,15 @@ Redux says the only way to change the state is by sending a signal to the store.
 
 Now, how do you change an immutable state? You don’t. The resulting state is a copy of the current state plus the new data.
 
+AS an app grows you can split a big reducer into separate functions and combine them with combineReducers()
+
+
 
 
 // src/js/constants/action-types.js
 the reason you use a file like this is to avoid errors that will be difficult 
 to debug and could potentialy cause problems if left in the actions file
+
 
 
 
@@ -64,6 +68,34 @@ npm i --save-dev babel-plugin-transform-object-rest-spread
 
 //Impure functions:
  Alters the original array or object.
+
+
+
+//Redux API calls
+store.getState()   for accessing the current state of the application
+store.dispatch()   for dispatching an action
+store.subscribe()   for listening on state changes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
