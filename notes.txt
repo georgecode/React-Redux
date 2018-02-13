@@ -1,4 +1,8 @@
+//Main tutorial
 https://www.valentinog.com/blog/react-redux-tutorial-beginners/
+
+//Redux super simple explination
+https://medium.com/@itsdavidthai/redux-an-explanation-for-beginners-957f268e7382
 
 //mutable vs immutable
 If the values of the properties attached to a given entity change over time, you say that the state of that entity is mutable. Otherwise, you say that the state is immutable.
@@ -54,6 +58,7 @@ console.log(sum(numbers));
 
 
 //Pure function rules
+https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c
 
 The function always returns the same result if the same arguments are passed in. It does not depend on any state, or data, change during a program’s execution. It must only depend on its input arguments.
 
