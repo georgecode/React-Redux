@@ -18,6 +18,11 @@ const initialState = {
 
 //reducers are always written as a function that takes two params (state, action)
 //They are almost always a switch statement that returns the initial state as a default
+
+// Always Use concat(), slice(), and …spread for arrays
+// Always Use Object.assign() and …spread for objects
+
+//Avoid useing impure functions like .push
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_ARTICLE:
